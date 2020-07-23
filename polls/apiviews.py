@@ -15,10 +15,10 @@ class PollDetail(APIView):
         serializer = PollSerializer(poll).data
         return Response(serializer)
     
-    # def get(self, request, pk, format=None):
-    #     snippet = self.get_object(pk)
-    #     serializer = CodeSerializer(snippet)
-    #     return Response(serializer.data)
+    def get(self, request, pk, format=None):
+        snippet = self.get_object(pk)
+        serializer = CodeSerializer(snippet)
+        return Response(serializer.data)
 
     def put(self, request, pk, format=None):
         poll = self.get_object(pk)
