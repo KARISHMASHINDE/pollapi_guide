@@ -25,7 +25,7 @@ SECRET_KEY = 'm+e!q_f72ypm!)as4eueq2$ingo0=26@s(=m_dt_bq7l)xp$fw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pollapidemo.herokuapp.com']
 
 
 # Application definition
@@ -118,5 +118,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
+
+STATIC_ROOT=os.path.join(BASE_DIR,'staticfiles')
 
 STATIC_URL = '/static/'
