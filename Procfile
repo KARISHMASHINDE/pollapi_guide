@@ -1,2 +1,2 @@
- web: gunicorn pydjblog.wsgi
+ web: gunicorn apitrail.wsgi
 
