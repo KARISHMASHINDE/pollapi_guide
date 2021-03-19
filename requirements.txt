@@ -68,7 +68,7 @@ pandocfilters==1.4.2
 parso==0.5.2
 pefile==2019.4.18
 pickleshare==0.7.5
-Pillow==7.1.1
+Pillow==8.1.1
 Pillow-PIL==0.1.dev0
 prometheus-client==0.7.1
 prompt-toolkit==2.0.10
