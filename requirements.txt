@@ -23,7 +23,7 @@ Django==2.2.7
 django-crispy-forms==1.9.0
 django-heroku==0.3.1
 django-rest-knox==4.1.0
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 docal-tkinter==3.0.0
 docutils==0.16
 Eel==0.10.4
